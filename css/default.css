@@ -17,23 +17,65 @@
 /* desktop */
 
 @media screen and (max-device-width: 1600px) {
-
+body {
+  font-size: 15px !important;
+}
+  .b__header {
+    top: 6vh !important;
+}
+}
+.b__main {
+    top: 20vh !important;
+}
+.b__main_form {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+    margin-top: 20px !important;
+}
+.b__form_submit {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+.b__form_number {
+    margin-bottom: 50px !important;
+    margin-top: 25px !important;
+    font-size: 1.5em !important;
+}
 }
 
-@media screen and (max-device-width: 1440px) {
-
+@media screen and (max-device-width: 1400px) {
+body {
+  font-size: 14px !important;
+}
+.b__main {
+    top: 22vh !important;
+}
 }
 
 @media screen and (max-device-width: 1368px) {
-
+.b__main_p-uppercase {
+    font-size: 1.5em;
+    margin-bottom: 15px !important;
+}
+.b__form_number {
+    margin-bottom: 35px !important;
+    margin-top: 15px !important;
+    font-size: 1.5em !important;
+}
 }
 
 @media screen and (max-device-width: 1280px) {
-
+body {
+  font-size: 13px !important;
+}
 }
 
 @media screen and (max-device-width: 1200px) {
-
+body {
+  font-size: 12px !important;
+}
 }
 
 @media screen and (max-device-width: 1140px) {
