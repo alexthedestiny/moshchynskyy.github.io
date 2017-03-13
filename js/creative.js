@@ -25,4 +25,4 @@ if (exp == 100) {
 }
 
 
-// mainClick();
+mainClick();
